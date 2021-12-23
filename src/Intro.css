@@ -1,14 +1,3 @@
-.App {
-  text-align: center;
-  background-color: #ED9835;
-  color: #361D2E;
-  font-family: 'PT Sans';
-}
-
-h1, h2, h3 {
-  font-family: 'Paytone One';
-}
-
 .intro {
   display: flex;
   justify-content: space-evenly;
@@ -36,8 +25,4 @@ h1, h2, h3 {
 .intro--heading {
   font-size: 3.7em;
   margin: 0;
-}
-
-.plop {
-  height: 100vh;
 }

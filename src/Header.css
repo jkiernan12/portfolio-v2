@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: #ED9835;
+}
+
+.header--logo {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 3em;
+  margin: 10px 20px;
+}
+
+.nav {
+  margin: 10px 20px;
+}
+
+.nav--button {
+  color: #361D2E;
+  border-radius: 0;
+  border: 1px solid #361D2E;
+  padding: 8px 20px;
+  font-family: 'Paytone One', sans-serif;
+  margin: 10px 20px;
+  transition: .1s;
+}
+
+.nav--button:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 3px 3px #361D2E;
+}
