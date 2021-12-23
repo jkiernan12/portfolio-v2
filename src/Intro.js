@@ -3,7 +3,7 @@ import profile from './assets/profile-pic.jpeg';
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <div className="intro" id="introSection">
       <img src={profile} className="intro--image"/>
       <section className="intro--text">
         <h1 className="intro--heading">John Kiernan</h1>

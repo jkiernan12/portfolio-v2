@@ -1,0 +1,46 @@
+.about--page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about--tabs {
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+}
+
+.about--tab {
+  background-color: #361D2E;
+  font-family: 'Paytone One', sans-serif;
+  color: white;
+  margin-right: 3px;
+  padding: 8px 10px;
+  cursor:pointer
+}
+
+li.about--active {
+  background-color: white;
+  color: #361D2E;
+  border: 1px solid #361D2E;
+  border-bottom: 0;
+  transform: translateY(1px)
+}
+
+.about--menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.about--panel {
+  display: none;
+  background-color: white;
+  border: 1px solid #361D2E;
+}
+
+.about--active {
+  display: block;
+}

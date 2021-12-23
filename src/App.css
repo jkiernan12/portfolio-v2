@@ -9,35 +9,6 @@ h1, h2, h3 {
   font-family: 'Paytone One';
 }
 
-.intro {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-  max-width: 100%;
-  margin: 0 10%;
-  min-height: 100vh;
-}
-
-.intro--image {
-  max-width: 400px;
-  min-width: 200px;
-  border: 2px solid #361D2E;
-  width: 30%;
-  margin: 2%;
-}
-
-.intro--text {
-  width: 55%;
-  text-align: left;
-  margin: 2%;
-}
-
-.intro--heading {
-  font-size: 3.7em;
-  margin: 0;
-}
-
 .plop {
   height: 100vh;
 }
