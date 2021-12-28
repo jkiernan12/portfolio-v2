@@ -1,0 +1,25 @@
+.project--badges {
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+.project--badges li {
+  border-radius: 12px;
+  padding: 2px 7px;
+  color: white;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.badge--green {
+  background-color: green;
+}
+
+.badge--blue {
+  background-color: darkblue;
+}
+
+.badge--purple {
+  background-color: darkmagenta;
+}

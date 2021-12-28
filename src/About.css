@@ -1,14 +1,16 @@
 .about--page {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 60vh;
+  width: 80%;
 }
 
 .about--tabs {
   display: flex;
   flex-direction: column;
-  min-width: 60%;
+  width: 100%;
 }
 
 .about--tab {
@@ -39,8 +41,14 @@ li.about--active {
   display: none;
   background-color: white;
   border: 1px solid #361D2E;
+  text-align: left;
+  padding: 1%;
 }
 
 .about--active {
   display: block;
+}
+
+.strong {
+  font-weight: 600;
 }

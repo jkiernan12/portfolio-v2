@@ -3,6 +3,10 @@
   background-color: #ED9835;
   color: #361D2E;
   font-family: 'PT Sans';
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1, h2, h3 {

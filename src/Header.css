@@ -5,6 +5,7 @@
   position: fixed;
   width: 100%;
   background-color: #ED9835;
+  z-index: 10;
 }
 
 .header--logo {

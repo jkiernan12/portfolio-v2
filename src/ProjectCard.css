@@ -1,0 +1,78 @@
+body {
+  background-color: #ed9835;
+}
+
+.project--container {
+ position: relative;
+ width: 100%;
+ /* height: 200px; */
+ margin: 1.5%;
+}
+
+.project--container__right {
+  align-self: flex-end;
+}
+
+.project--container__right .project--content {
+  flex-direction: row-reverse;
+}
+
+.project--content {
+  position: relative;
+ color: black;
+ z-index: 3;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: left;
+ }
+
+ .project--white {
+  border: 1px solid black;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+ }
+
+.project--pattern {
+ position: absolute;
+ top: 16px;
+ left: 16px;
+ width: 100%;
+ height: 100%;
+background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%237051a2' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.project--image {
+  margin: 2%;
+  max-width: 40%;
+}
+
+.project--text {
+  margin: 2%;
+}
+
+.project--button {
+  color: white;
+  text-decoration: none;
+  background-color: #361D2E;
+  border-radius: 0;
+  border: none;
+  padding: 8px 20px;
+  font-family: 'Paytone One', sans-serif;
+  margin: 10px 10px 10px 0;
+  transition: .1s;
+}
+
+.project--button:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 3px 3px #ed9835;
+}
+
+.project--button a {
+  text-decoration: none;
+  color: inherit;
+}
