@@ -49,12 +49,23 @@ writers and designers.</li>
       key: '3',
       title: 'Human',
       content: (
-        <p>Here is what I do for fun :D</p>
+        <div className='about--container'>
+        <p>I'm not just a working, programming 🤖 -- I'm also a human with lots of interests and hobbies!</p>
+        <iframe className="about--video" width="560" height="315" src="https://www.youtube.com/embed/A3vQNVZmYSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h4>Here's what I'm into:</h4>
+        <ul>
+          <li>Climbing: DEFINITELY my biggest hobby. When not climbing on plastic, I climb in Connecticut and New Hampshire. You can check out some of my climbing ticks and to-dos on <a href="https://www.mountainproject.com/user/200928904/john-kiernan">Mountain Project</a></li>
+          <li>Homebrewing/craft beer: I've been homebrewing for five years. My current fascination is European-style sour beers (here's <a href="https://www.beeradvocate.com/beer/profile/641/1745/">one of my favorites</a>). Currently I have an oude bruin in the fermenter that should be ready in... oh maybe another year or so?</li>
+          <li>Longboarding: I picked up a couple of cheapo boards this past summer and have been cruising around on my local bike path ever since. No tricks or bombing downhill just yet, just relaxing carving.</li>
+          <li>Travel: Sadly more of a pre-Covid hobby -- I managed to get to Germany, Spain and Italy in the last couple of years. I would love to get out to Japan and Australia/New Zealand sometime in the next few years.</li>
+          <li>Watery adventures: Sailing, snorkeling ans scuba diving 🐠🌊⛵️</li>
+        </ul>
+        </div>
       )
     }
   ];
 
-  const [ currentTab, setTab ] = useState('1');
+  const [ currentTab, setTab ] = useState('2');
 
   return (
     <section className="about--page" id="aboutSection">

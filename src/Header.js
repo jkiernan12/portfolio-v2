@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import './Header.css';
 
 const scrollPage = (element) => {
@@ -6,13 +7,23 @@ const scrollPage = (element) => {
 }
 
 const Header = () => {
+  const [isScrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", () => {
+        setScrolled(window.pageYOffset > 4)
+      })
+    }
+  }, []);
+
   return (
-    <header className="header">
-      <span className="header--logo" onClick={() => scrollPage('introSection')}>JFK</span>
+    <header className={`header ${isScrolled ? "header__scrolled": ""}`}>
+      <span className={`header--logo ${isScrolled ? "header--logo__scrolled": ""}`} onClick={() => scrollPage('introSection')}>JFK</span>
       <nav className="nav">
-        <button className="nav--button" onClick={() => scrollPage('aboutSection')}>About Me</button>
-        <button className="nav--button">Projects</button>
-        <button className="nav--button">Contact</button>
+        <button className={`nav--button ${isScrolled ? "nav--button__scrolled": ""}`} onClick={() => scrollPage('aboutSection')}>About Me</button>
+        <button className={`nav--button ${isScrolled ? "nav--button__scrolled": ""}`} onClick={() => scrollPage('projectSection')}>Projects</button>
+        <button className={`nav--button ${isScrolled ? "nav--button__scrolled": ""}`} onClick={() => scrollPage('contactSection')}>Contact</button>
       </nav>
     </header>
   )

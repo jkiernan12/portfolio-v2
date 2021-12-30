@@ -6,6 +6,7 @@
   width: 100%;
   background-color: #ED9835;
   z-index: 10;
+  transition: .1s;
 }
 
 .header--logo {
@@ -13,6 +14,7 @@
   font-size: 3em;
   margin: 10px 20px;
   cursor: pointer;
+  transition: .1s;
 }
 
 .nav {
@@ -32,4 +34,16 @@
 .nav--button:hover {
   transform: translate(-3px, -3px);
   box-shadow: 3px 3px #361D2E;
+}
+
+.header__scrolled {
+  background-color: #361D2E;
+}
+
+.header--logo__scrolled {
+  color: #ED9835;
+}
+
+.nav--button__scrolled:hover {
+  box-shadow: 3px 3px #ED9835;
 }
