@@ -56,3 +56,19 @@
 .nav__scrolled {
   margin: 0px 20px;
 }
+
+@media only screen and (max-width: 675px) {
+  .nav {
+    width: 100%;
+  }
+
+  .nav--button {
+    font-size: .8em;
+    margin: 3px 5px;
+
+  }
+
+  .header--logo {
+    display: none;
+  }
+}

@@ -4,13 +4,13 @@
   align-items: center;
   flex-wrap: wrap;
   max-width: 100%;
-  margin: 0 10%;
-  min-height: 100vh;
+  margin: 90px 10%;
+  min-height: 90vh;
 }
 
 .intro--image {
   max-width: 400px;
-  min-width: 200px;
+  min-width: 150px;
   border: 2px solid #361D2E;
   width: 30%;
   margin: 2%;
@@ -25,4 +25,24 @@
 .intro--heading {
   font-size: 3.7em;
   margin: 0;
+}
+
+@media only screen and (max-width: 675px) {
+  .intro {
+    margin: 90px 3%;
+  }
+
+  .intro--heading {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .intro--image {
+    width: 80%;
+  }
+
+  .intro--text {
+    width: 80%;
+  }
 }

@@ -30,7 +30,8 @@
   border-right: 2px solid black;
 }
 
-.socials__scrolled {
-  position: relative;
-  flex-direction: row;
+@media only screen and (max-width: 675px) {
+  .socials {
+    position: relative;
+  }
 }
