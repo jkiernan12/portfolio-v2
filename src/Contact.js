@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Contact.css';
+import Socials from './Socials';
 
 const Contact = () => {
   const [isScrolled, setScrolled] = useState(false)
@@ -7,20 +8,19 @@ const Contact = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const contactSection = document.querySelector('#contactElements');
-      
       window.addEventListener("scroll", () => {
-      //   console.log(window.scrollY);
-      console.log(contactSection.scrollTop)
-      // console.log(window.pageYOffset)
-        setScrolled(window.pageYOffset > document.body.clientHeight - contactSection.scrollHeight)
+        const elemRect = contactSection.getBoundingClientRect();
+        setScrolled(window.outerHeight / 2 > elemRect.top)
       })
     }
   }, []);
 
   return (
     <section id="contactSection" className="contact--section">
-    <h3 className={isScrolled ? "blue" : "red"}>Get in touch</h3>
-    <p id="contactElements">Click one of these</p>
+    <h3>Get in touch</h3>
+    <span id="contactElements">
+    <Socials atBottom={isScrolled} />
+    </span>
     </section>
   )
 }

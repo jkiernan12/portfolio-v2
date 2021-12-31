@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header className={`header ${isScrolled ? "header__scrolled": ""}`}>
       <span className={`header--logo ${isScrolled ? "header--logo__scrolled": ""}`} onClick={() => scrollPage('introSection')}>JFK</span>
-      <nav className="nav">
+      <nav className={`nav ${isScrolled ? "nav__scrolled": ""}`}>
         <button className={`nav--button ${isScrolled ? "nav--button__scrolled": ""}`} onClick={() => scrollPage('aboutSection')}>About Me</button>
         <button className={`nav--button ${isScrolled ? "nav--button__scrolled": ""}`} onClick={() => scrollPage('projectSection')}>Projects</button>
         <button className={`nav--button ${isScrolled ? "nav--button__scrolled": ""}`} onClick={() => scrollPage('contactSection')}>Contact</button>

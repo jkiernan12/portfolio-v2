@@ -4,10 +4,14 @@
   position: fixed;
   left: 0;
   bottom: 0;
+  transform: .1s;
 }
 
 .socials-list {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .socials--icon {
@@ -20,12 +24,13 @@
   filter:hue-rotate(90)
 }
 
-.socials-list::after {
-  content: "";
-  display: block;
-  width: 1px;
+.socials--line {
+  width: 0;
   height: 90px;
-  margin: 0px auto;
-  background-color: #361D2E;
-  box-sizing: inherit;
+  border-right: 2px solid black;
+}
+
+.socials__scrolled {
+  position: relative;
+  flex-direction: row;
 }

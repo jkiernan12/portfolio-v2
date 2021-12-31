@@ -42,8 +42,17 @@
 
 .header--logo__scrolled {
   color: #ED9835;
+  font-size: 2em;
+}
+
+.nav--button__scrolled {
+  margin: 5px 20px;
 }
 
 .nav--button__scrolled:hover {
   box-shadow: 3px 3px #ED9835;
+}
+
+.nav__scrolled {
+  margin: 0px 20px;
 }

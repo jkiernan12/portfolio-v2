@@ -67,4 +67,5 @@ li.about--active {
 .about--video {
   box-shadow: 8px 8px #361D2E;
   align-self: center;
+  max-width: 100%;
 }
