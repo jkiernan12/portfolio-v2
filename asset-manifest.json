@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.34c5d646.css",
+    "main.js": "/static/js/main.237658d5.js",
+    "static/js/787.c8173fb1.chunk.js": "/static/js/787.c8173fb1.chunk.js",
+    "static/media/rancid-gif.gif": "/static/media/rancid-gif.3642d9512e8a07d4c494.gif",
+    "static/media/trips-a-lot-gif.gif": "/static/media/trips-a-lot-gif.41806a1a9e8b8709fab6.gif",
+    "static/media/profile-pic.jpeg": "/static/media/profile-pic.7231ba1270a008c2010e.jpeg",
+    "index.html": "/index.html",
+    "main.34c5d646.css.map": "/static/css/main.34c5d646.css.map",
+    "main.237658d5.js.map": "/static/js/main.237658d5.js.map",
+    "787.c8173fb1.chunk.js.map": "/static/js/787.c8173fb1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34c5d646.css",
+    "static/js/main.237658d5.js"
+  ]
+}
