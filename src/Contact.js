@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <section id="contactSection" className="contact--section">
-    <h3>Get in touch</h3>
+    <h2 className="contact--title" id="contactTitle">Get in touch</h2>
     <span id="contactElements">
     <Socials atBottom={isScrolled} />
     </span>

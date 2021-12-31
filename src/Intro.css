@@ -4,7 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   max-width: 100%;
-  margin: 90px 10%;
+  margin: 90px 10% 0 10%;
   min-height: 90vh;
 }
 
@@ -29,7 +29,7 @@
 
 @media only screen and (max-width: 675px) {
   .intro {
-    margin: 90px 3%;
+    margin: 90px 3% 0 3%;
   }
 
   .intro--heading {

@@ -6,10 +6,13 @@ import anime from 'animejs';
 
 const Socials = ({atBottom}) => {
   if (atBottom) {
+    const pixelsTop = window.pageYOffset + document.querySelector('#contactElements').getBoundingClientRect().top;
+    console.log(pixelsTop)
+
     anime({
       targets: '.socials',
-      left: '48%',
-      bottom: 50,
+      left: '47%',
+      bottom: '20%',
       scale: 2,
       easing: 'easeInOutExpo',
       duration: 250
@@ -31,6 +34,7 @@ const Socials = ({atBottom}) => {
       height: 0,
       opacity: 0
     })
+
   } else {
     anime({
       targets: '.socials',

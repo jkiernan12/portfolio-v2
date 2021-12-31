@@ -1,6 +1,7 @@
 import './Projects.css'
 import ProjectCard from './ProjectCard';
-
+import rancidGif from './assets/rancid-gif.gif';
+import tripsGif from './assets/trips-a-lot-gif.gif';
 
 const Projects = () => {
   return (
@@ -10,33 +11,30 @@ const Projects = () => {
       <ProjectCard 
       right="true"
         title="Rancid Tomatillos"
+        image={rancidGif}
         description={`Are you tired of all those 【ｍａｉｎｓｔｒｅａｍ】movie databases? Probably not. Regardless, we present Rancid Tomatillos, a UI for exploring movie posters, details and trailers.
 
-        Are you tired of all those 【ｍａｉｎｓｔｒｅａｍ】movie databases? Probably not. Regardless, we present Rancid Tomatillos, a UI for exploring movie posters, details and trailers.
-
 This project uses React, React Router and data pulled from a RESTful API to display a dashboard of movies. Select a movie to learn more about it.`}
         tech={{
             backend: ['RESTful API'],
-            frontend: ['HTML/CSS', 'React', 'React Router'],
+            frontend: ['HTML/CSS', 'ES6 Javascript', 'React', 'React Router'],
             testing: ['Cypress']
             }}
         deploy="https://jkiernan12.github.io/rancid-tomatillo/"
         repo="https://github.com/jkiernan12/rancid-tomatillo"
+        
       />
       <ProjectCard 
-        title="Rancid Tomatillos"
-        description={`Are you tired of all those 【ｍａｉｎｓｔｒｅａｍ】movie databases? Probably not. Regardless, we present Rancid Tomatillos.
-
-This project uses React, React Router and data pulled from a RESTful API to display a dashboard of movies. Select a movie to learn more about it.`}
+        title="Trips-a-Lot"
+        image={tripsGif}
+        description={`A vanilla JS app that simulates a travel agencies database. Users can view past and future vacations and request new vacations. `}
         tech={{
-            backend: ['RESTful API'],
-            frontend: ['HTML/CSS'],
-            testing: ['Cypress']
+          backend: ['RESTful API'],
+          frontend: ['HTML/CSS', 'ES6 Javascript', 'ESLint'],
+          testing: ['Mocha/Chai']
             }}
-        deploy="https://jkiernan12.github.io/rancid-tomatillo/"
-        repo="https://github.com/jkiernan12/rancid-tomatillo"
+        repo="https://github.com/jkiernan12/travel-tracker"
       />
-      <ProjectCard right="true"/>
       </div>
     </section>
   )
