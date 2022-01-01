@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.edbb6000.css",
-    "main.js": "/portfolio-v2/static/js/main.5ce77e82.js",
-    "static/js/787.c8173fb1.chunk.js": "/portfolio-v2/static/js/787.c8173fb1.chunk.js",
-    "static/media/rancid-gif.gif": "/portfolio-v2/static/media/rancid-gif.3642d9512e8a07d4c494.gif",
-    "static/media/trips-a-lot-gif.gif": "/portfolio-v2/static/media/trips-a-lot-gif.41806a1a9e8b8709fab6.gif",
-    "static/media/profile-pic.jpeg": "/portfolio-v2/static/media/profile-pic.7231ba1270a008c2010e.jpeg",
-    "index.html": "/portfolio-v2/index.html",
-    "main.edbb6000.css.map": "/portfolio-v2/static/css/main.edbb6000.css.map",
-    "main.5ce77e82.js.map": "/portfolio-v2/static/js/main.5ce77e82.js.map",
-    "787.c8173fb1.chunk.js.map": "/portfolio-v2/static/js/787.c8173fb1.chunk.js.map"
+    "main.css": "/static/css/main.edbb6000.css",
+    "main.js": "/static/js/main.e1345d64.js",
+    "static/js/787.c8173fb1.chunk.js": "/static/js/787.c8173fb1.chunk.js",
+    "static/media/rancid-gif.gif": "/static/media/rancid-gif.3642d9512e8a07d4c494.gif",
+    "static/media/trips-a-lot-gif.gif": "/static/media/trips-a-lot-gif.41806a1a9e8b8709fab6.gif",
+    "static/media/profile-pic.jpeg": "/static/media/profile-pic.7231ba1270a008c2010e.jpeg",
+    "index.html": "/index.html",
+    "main.edbb6000.css.map": "/static/css/main.edbb6000.css.map",
+    "main.e1345d64.js.map": "/static/js/main.e1345d64.js.map",
+    "787.c8173fb1.chunk.js.map": "/static/js/787.c8173fb1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.edbb6000.css",
-    "static/js/main.5ce77e82.js"
+    "static/js/main.e1345d64.js"
   ]
 }
