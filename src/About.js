@@ -9,8 +9,8 @@ const About = () => {
       content: (
         <div>
           <p>In my previous positions, I worked in digital and print content creation, project management, and digital marketing. I became the go-to person whenever coworkers ran into technical obstacles or when managers wanted to implement new technologies and software. I had the opportunity to learn good ol' fashioned HTML and CSS and implement it to create and enhance marketing channels.</p>
-          <h4>Multimedia Coordinator — 1/18-Present</h4>
-          <h5>JOHNSON & WALES UNIVERSITY, PROVIDENCE RI</h5>
+          <h4>Multimedia Coordinator — 1/18-7/21</h4>
+          <p>JOHNSON & WALES UNIVERSITY, PROVIDENCE RI</p>
           <ul>
             <li>Created graphics, wrote copy and designed email campaigns in HTML</li>
             <li>Working in HTML and via CMS, edited and maintained pre-existing web pages, created new
@@ -21,7 +21,7 @@ marketing channels: print, email and web</li>
 writers and designers.</li>
           </ul>
           <h4>Editorial Assistant — 10/16-10/17</h4>
-          <h5>RHODE ISLAND MONTHLY MAGAZINE, PROVIDENCE RI</h5>
+          <p>RHODE ISLAND MONTHLY MAGAZINE, PROVIDENCE RI</p>
           <ul>
             <li>Demonstrated strong writing and organizational skills by pitching and writing profiles, features, shorts, and weekly blog posts.</li>
             <li>Managed local travel website and social media and utilized creative outreach and SEO to boost followers.</li>

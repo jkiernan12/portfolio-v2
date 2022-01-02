@@ -7,6 +7,14 @@
   width: 80%;
 }
 
+.about--page:before { 
+  content: ''; 
+  display: block; 
+  position: relative; 
+  width: 0; 
+  height: 5em; 
+  margin-top: -5em }
+
 .about--page h2 {
   text-align: left;
 }

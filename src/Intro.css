@@ -5,8 +5,8 @@
   flex-wrap: wrap;
   max-width: 100%;
   width: 85%;
-  margin: 90px 10% 0 10%;
-  min-height: 90vh;
+  margin: 0px 10% 0 10%;
+  min-height: 100vh;
 }
 
 .intro--image {

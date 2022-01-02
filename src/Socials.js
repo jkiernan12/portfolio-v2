@@ -1,65 +1,40 @@
-import github from './assets/github.png';
-import email from './assets/email.png';
-import linkedin from './assets/linkedin.png';
+import github from './assets/github-svgrepo-com.svg';
+import email from './assets/email-svgrepo-com.svg';
+import linkedin from './assets/linkedin-svgrepo-com.svg';
 import './Socials.css';
 import anime from 'animejs';
 
 const Socials = ({atBottom}) => {
   if (atBottom) {
     const pixelsTop = window.pageYOffset + document.querySelector('#contactElements').getBoundingClientRect().top;
-    console.log(pixelsTop)
 
     anime({
       targets: '.socials',
-      left: '47%',
-      bottom: '20%',
-      scale: 2,
+      left: '-10%',
+      opacity: 0,
       easing: 'easeInOutExpo',
       duration: 250
     })
     anime({
-      targets: '.socials-list',
-      rotate: 90,
+      targets: '.contact--list',
+      translateY: 0,
+      opacity: 1,
       easing: 'easeInOutExpo',
       duration: 250
-    })
-    anime({
-      targets: '.socials--icon',
-      rotate: -90,
-      easing: 'easeInOutExpo',
-      duration: 250
-    })
-    anime({
-      targets: '.socials--line',
-      height: 0,
-      opacity: 0
     })
 
   } else {
     anime({
       targets: '.socials',
       left: 0,
-      bottom: 0,
-      scale: 1,
-      easing: 'easeInOutExpo',
-      duration: 250
-    })
-    anime({
-      targets: '.socials-list',
-      rotate: 0,
-      easing: 'easeInOutExpo',
-      duration: 250
-    })
-    anime({
-      targets: '.socials--icon',
-      rotate: 0,
-      easing: 'easeInOutExpo',
-      duration: 250
-    })
-    anime({
-      targets: '.socials--line',
-      height: 90,
       opacity: 1,
+      easing: 'easeInOutExpo',
+      duration: 250
+    });
+    anime({
+      targets: '.contact--list',
+      translateY: 50,
+      opacity: 0,
       easing: 'easeInOutExpo',
       duration: 250
     })
