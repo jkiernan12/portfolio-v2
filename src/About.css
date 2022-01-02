@@ -7,8 +7,8 @@
   width: 80%;
 }
 
-.about--page:before { 
-  content: ''; 
+#aboutSection:before { 
+  content: ' '; 
   display: block; 
   position: relative; 
   width: 0; 

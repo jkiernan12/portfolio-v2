@@ -13,14 +13,14 @@ const Socials = ({atBottom}) => {
       left: '-10%',
       opacity: 0,
       easing: 'easeInOutExpo',
-      duration: 250
+      duration: 750
     })
     anime({
       targets: '.contact--list',
       translateY: 0,
       opacity: 1,
       easing: 'easeInOutExpo',
-      duration: 250
+      duration: 750
     })
 
   } else {
@@ -29,14 +29,14 @@ const Socials = ({atBottom}) => {
       left: 0,
       opacity: 1,
       easing: 'easeInOutExpo',
-      duration: 250
+      duration: 750
     });
     anime({
       targets: '.contact--list',
       translateY: 50,
       opacity: 0,
       easing: 'easeInOutExpo',
-      duration: 250
+      duration: 750
     })
     }
 

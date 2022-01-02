@@ -39,10 +39,10 @@ writers and designers.</li>
         <p>In my career, I've had plenty of opportunities to focus my energy on technical challenges -- web management, creating HTML email/pages templates, CRM and database work -- and this was my favorite part of the job. I self-taught with lessons from the Odin Project, uDemy, and freeCodeCamp. In 2021, I realized programming was something I wanted to pursue fulltime, and I joined the <a href="https://turing.edu/
         ">Turing School of Software & Design</a>.</p>
         <p>It has been an amazing experience. I've learned a lot of technical skills, but also soft skills in terms of teamwork in a technical environment, the Agile methodology/workflow, and challenges in the larger software development ecosystem.</p>
-        <p><span class="strong">Frontend</span>:React, React Router, HTML/CSS, Sass, ES6 JavaScript</p>
-        <p><span class="strong">Backend</span>: Node.js, Express, RESTful APIs, PostrgreSQL, Mongoose & MongoDB</p>
-        <p><span class="strong">Testing</span>: TDD, Mocha/Chai, Cypress</p>
-        <p><span class="strong">Tooling</span>: Git, GitHub, ESLint, NPM, VSCode</p>
+        <p><span className="strong">Frontend</span>:React, React Router, HTML/CSS, Sass, ES6 JavaScript</p>
+        <p><span className="strong">Backend</span>: Node.js, Express, RESTful APIs, PostrgreSQL, Mongoose & MongoDB</p>
+        <p><span className="strong">Testing</span>: TDD, Mocha/Chai, Cypress</p>
+        <p><span className="strong">Tooling</span>: Git, GitHub, ESLint, NPM, VSCode</p>
         </div>
       )
     }, {
@@ -51,7 +51,7 @@ writers and designers.</li>
       content: (
         <div className='about--container'>
         <p>I'm not just a working, programming 🤖 -- I'm also a human with lots of interests and hobbies!</p>
-        <iframe className="about--video" width="560" height="315" src="https://www.youtube.com/embed/A3vQNVZmYSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className="about--video" width="560" height="315" src="https://www.youtube.com/embed/A3vQNVZmYSs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <h4>Here's what I'm into:</h4>
         <ul>
           <li>Climbing: DEFINITELY my biggest hobby. When not climbing on plastic, I climb in Connecticut and New Hampshire. You can check out some of my climbing ticks and to-dos on <a href="https://www.mountainproject.com/user/200928904/john-kiernan">Mountain Project</a></li>
@@ -90,13 +90,13 @@ writers and designers.</li>
     {tabInfo.map(tab => {
       if (tab.key === currentTab) {
         return (
-        <div className="about--panel about--active">
+        <div key={tab.key} className="about--panel about--active">
           {tab.content}
         </div>
         )
       } else {
           return (
-        <div className="about--panel">
+        <div key={tab.key} className="about--panel">
           {tab.content}
         </div>
         )

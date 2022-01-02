@@ -11,13 +11,13 @@ const Contact = () => {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      if (window.outerWidth < 650 ) {
+      if (window.innerWidth < 650 ) {
         setScrolled(true)
       } else {
         const contactSection = document.querySelector('#contactElements');
       window.addEventListener("scroll", () => {
         const elemRect = contactSection.getBoundingClientRect();
-        setScrolled(window.outerHeight / 2 > elemRect.top - 200);
+        setScrolled(window.innerHeight > elemRect.top);
       })
       }
       
