@@ -29,6 +29,7 @@
   font-family: 'Paytone One', sans-serif;
   margin: 10px 20px;
   transition: .1s;
+  cursor: pointer;
 }
 
 .nav--button:hover {

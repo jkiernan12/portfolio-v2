@@ -10,7 +10,7 @@ const Intro = () => {
       </div>
       <section className="intro--text">
         <h1 className="intro--heading">John Kiernan</h1>
-        <h2>[ software engineer, rock climber, 
+        <h2>[ software engineer, former digital marketer, 
     human being ]</h2>
       </section>
     </div>

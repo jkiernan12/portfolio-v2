@@ -7,6 +7,10 @@
   width: 80%;
 }
 
+.about--page h4 {
+  margin: 5px 0;
+}
+
 #aboutSection:before { 
   content: ' '; 
   display: block; 
@@ -78,8 +82,66 @@ li.about--active {
   max-width: 100%;
 }
 
+.job-title--container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #361D2E;
+  flex-wrap: wrap;
+}
+
+.job-title--container p {
+  margin: 5px 0 0 0;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.job-company {
+  margin: 5px 0;
+}
+
+.resume--button {
+  color: white;
+  text-decoration: none;
+  background-color: #361D2E;
+  border-radius: 0;
+  border: none;
+  padding: 8px 20px;
+  font-family: 'Paytone One', sans-serif;
+  margin: 10px auto;
+  transition: .1s;
+  cursor: pointer;
+}
+
+.resume--button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume--button:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 3px 3px #ed9835;
+}
+
+.experience--title {
+  text-align: center;
+}
+
+.experience-button--container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 675px) {
   .about--page {
     width: 95%;
+  }
+
+  .job-title--container {
+    border-bottom: none;
   }
 }
