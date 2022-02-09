@@ -50,7 +50,7 @@ const About = () => {
         <div>
 
         <p><span className="strong">Frontend</span>: React, React Router, HTML/CSS, Sass, ES6 JavaScript, Leaflet.js</p>
-        <p><span className="strong">Backend</span>: Node.js, Express, RESTful APIs, PostrgreSQL</p>
+        <p><span className="strong">Backend</span>: Node.js, Express, RESTful APIs, PostgreSQL</p>
         <p><span className="strong">Testing</span>: TDD, Mocha/Chai, Cypress</p>
         <p><span className="strong">Tooling</span>: Git, GitHub, ESLint, NPM, VSCode</p>
         </div>
@@ -61,7 +61,6 @@ const About = () => {
       content: (
         <div className='about--container'>
         <p>I'm not just a working, programming 🤖 -- I'm also a human with lots of interests and hobbies!</p>
-        <iframe className="about--video" width="560" height="315" src="https://www.youtube.com/embed/A3vQNVZmYSs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         <h4>Here's what I'm into:</h4>
         <ul>
           <li>Rock Climbing: DEFINITELY my biggest hobby. When not climbing indoors, I climb in Connecticut and New Hampshire. You can check out some of my climbing ticks and to-dos on <a href="https://www.mountainproject.com/user/200928904/john-kiernan">Mountain Project</a></li>
